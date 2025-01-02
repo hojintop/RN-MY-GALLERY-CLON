@@ -1,7 +1,7 @@
 import { Dimensions, FlatList, Image, Text, TouchableOpacity } from "react-native";
 
 const width = Dimensions.get("screen").width;
-const minColumnSize = width >= 500 ? 200 : 131;
+const minColumnSize = width >= 500 ? 200 : 130;
 const divisor = width / minColumnSize;
 const numCloumns = Math.floor(divisor);
 const columnSize = width / numCloumns;
